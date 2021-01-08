@@ -1,3 +1,5 @@
 go install *.go
 go build *.go
-echo Build finish, the output file is called main and you can find it in the root directory!
+mkdir build
+mv main build
+echo Build is finish! You can find the final executable in the build folder!
